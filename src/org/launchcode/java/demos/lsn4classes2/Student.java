@@ -48,33 +48,26 @@ public class Student {
     public String getName() {
         return name;
     }
-
     public int getStudentId() {
         return studentId;
     }
-
     public int getNumberOfCredits() {
         return numberOfCredits;
     }
-
     public double getGpa() {
         return gpa;
     }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String aName) {
+        name = aName;
     }
-
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
+    public void setStudentId(int aStudentId) {
+        studentId = aStudentId;
     }
-
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
+    public void setGpa(double aGpa) {
+        gpa = aGpa;
     }
-
-    private void setNumberOfCredits(int numberOfCredits) {
-        this.numberOfCredits = numberOfCredits;
+    private void setNumberOfCredits(int aNumberOfCredits) {
+        numberOfCredits = aNumberOfCredits;
     }
 
     public static void main(String[] args) {
@@ -85,5 +78,8 @@ public class Student {
         System.out.println(sally);
         sally.addGrade(25, 3.8);
         System.out.println(sally);
+
+        Student emilee = new Student("Emilee,", 2, 1, 4.0);
+        System.out.println(emilee);
     }
 }

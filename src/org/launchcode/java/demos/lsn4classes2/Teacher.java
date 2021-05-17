@@ -13,20 +13,20 @@ public class Teacher {
         this.yearsTeaching = yearsTeaching;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFirstName(String aFirstName) {
+        firstName = aFirstName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastName(String aLastName) {
+        lastName = aLastName;
     }
 
-    public void setSubject(String subject) {
-        this.subject = subject;
+    public void setSubject(String aSubject) {
+        subject = aSubject;
     }
 
-    public void setYearsTeaching(int yearsTeaching) {
-        this.yearsTeaching = yearsTeaching;
+    public void setYearsTeaching(int aYearsTeaching) {
+        yearsTeaching = aYearsTeaching;
     }
 
     public String getFirstName() {
